@@ -11,4 +11,4 @@ Aman Fatima(SP24-BCS-018)
 
 Kashaf Junaid(SP24-BCS-027)
 
-LANGUAGE  (c++)
+LANGUAGE    (C++)
