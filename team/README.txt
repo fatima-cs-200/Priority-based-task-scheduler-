@@ -1,4 +1,5 @@
-School Timetable Management System
+Priority Based Task Scheduler
+
 Team Information
 
 Group Members:
