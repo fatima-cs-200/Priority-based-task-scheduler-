@@ -15,7 +15,7 @@ LANGUAGE    (C++)
 
 
 
-# Priority-Based Task Scheduler
+# Description
 
 This project manages tasks based on their priority.  
 The system ensures that the most important task is always executed first using a Priority Queue (Max-Heap).
