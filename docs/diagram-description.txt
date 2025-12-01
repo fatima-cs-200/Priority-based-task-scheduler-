@@ -1,0 +1,9 @@
+Flowchart Description for Diagram:
+
+User → AddTask()  
+        ↓  
+Task stored in → Queue → Priority Queue → HashMap  
+        ↓  
+GetNextTask() extracts highest priority  
+        ↓  
+Task returned to user  
