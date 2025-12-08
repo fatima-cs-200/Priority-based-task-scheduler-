@@ -90,7 +90,7 @@ Executing when no task exists
 
 Uses C++ exception handling
 
-# 5. Exceptional Case Handling
+✅ 5. Exceptional Case Handling
 
 Your project safely handles:
 
