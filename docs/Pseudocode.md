@@ -1,5 +1,6 @@
 --1
 FUNCTION AddTask(name, priority):
+
     task.id = generateRandomID()
     task.name = name
     task.priority = priority
@@ -10,6 +11,7 @@ END FUNCTION
 
 --2
 FUNCTION GetNextTask():
+
     task = MaxHeap.extractMax()
     IF task NOT NULL:
         HashMap.remove(task.id)
@@ -18,11 +20,13 @@ END FUNCTION
 
 --3
 FUNCTION SearchTask(id):
+
     RETURN HashMap.get(id)
 END FUNCTION
 
 --4
 FUNCTION DeleteTask(id):
+
     task = HashMap.get(id)
     IF task NOT NULL:
         LinkedList.remove(task)
@@ -33,6 +37,7 @@ END FUNCTION
 
 --5
 FUNCTION DisplayAllTasks():
+
     FOR each task IN List:
         PRINT task.id, task.name, task.priority
 END FUNCTION
