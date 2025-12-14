@@ -1,0 +1,4 @@
+- Fixed heap comparison logic for same-priority tasks
+- Prevented duplicate task IDs using hash map
+- Fixed input validation crash
+- Resolved heap underflow error
